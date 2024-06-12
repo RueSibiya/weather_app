@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgb(16, 15, 15);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.00em;
+    margin-bottom: 0.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0.5em 0;
+}
+</style>
+<body>
+   <div class="container">
+        <video autoplay muted loop id="background">
+            <source src="1118412_4k_Weather_Think_1920x1080.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <header>
+                <h1>WeatherBelle</h1>
+            </header>
+            <section class="project-info">
+                <h2>About the Project</h2>
+                <p><strong>WeatherBelle</strong> a personal weather assistant for all the beautiful women out there that provides real-time weather updates and recommendations on how to dress for the day. Whether you're planning your day or your week, WeatherBelle helps you stay prepared for any weather condition anywhere in the world.</p>
+            </section>
+            <section class="developer-info">
+                <h2>About the Developer</h2>
+                <p><strong>Hello!I'm Ruvimbo Karumbidza</strong>, a passionate web developer with a love for creating interactive and user-friendly applications. WeatherBelle is my first project that combines my interest in meteorology with my skills in web development to create a useful tool for everyone.</p>
+            </section>
+            <section class="links">
+                <h2>Check Out More</h2>
+                <p>
+                    <a href="https://youtu.be/IrRjWVQZJK8" target="_blank">Visit WeatherBelle App</a>
+                    <br>
+                </p>
+            </section>
+            <footer>
+                <hr>
+                <div class="social-links">
+                    Follow me on:
+                    <span><a href="https://www.x.com/rue_sibiya"><i class="fab fa-twitter"></i></a></span>
+                    <span><a href="https://www.github.com/RueSibiya"><i class="fab fa-github"></i></a></span>
+                    <span><a href="https://www.linkedin.com/in/ruvimbo-karumbidza-5911a4302/"><i class="fab fa-linkedin"></i></a></span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
